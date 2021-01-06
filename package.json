@@ -1,0 +1,23 @@
+{
+  "name": "joy-trader",
+  "version": "0.0.1",
+  "description": "A web-based Sci-fi trading game built with phaser",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BossFogg/joy-trader.git"
+  },
+  "author": "Richard Bond",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BossFogg/joy-trader/issues"
+  },
+  "homepage": "https://github.com/BossFogg/joy-trader#readme",
+  "dependencies": {
+    "phaser": "^3.51.0",
+    "webpack": "^5.11.1"
+  }
+}
