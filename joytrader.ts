@@ -1,4 +1,5 @@
 import Phaser from 'phaser';
+import { TestScene } from './scenes/TestScene';
 
 export class JoyTrader {
 
@@ -9,26 +10,10 @@ export class JoyTrader {
 		height: 600,
 		type: Phaser.AUTO,
 		parent: "content",
-		scene: {
-			preload: this.gamePreload,
-			create: this.gameCreate,
-			update: this.gameUpdate
-		}
+		scene: [TestScene]
 	}
 
 	constructor() {
 		this.game = new Phaser.Game(this.config);
-	}
-
-	gamePreload() {
-		console.log("I'm preloading!!!");
-	}
-
-	gameCreate() {
-		console.log("I'm creating!!!");
-	}
-
-	gameUpdate() {
-		console.log("I'm updating!!!");
 	}
 }
